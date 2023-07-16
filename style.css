@@ -1,0 +1,160 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+
+
+    .rain-video img{
+        position: absolute;
+        top:0;
+        left:0;
+        opacity: 0.9;
+        height:109%;
+        width: 100%;
+        z-index: -1; 
+    }
+    h2{
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+        background-color: steelblue;
+        width:180px;
+        color: white;
+    }
+    .container p{
+    
+        border: 2px solid lightgrey;
+        background-color: royalblue;
+        width:120px;
+        display: inline;
+        font-size: 25px;
+        cursor: pointer;
+
+    }
+    .container p:hover{
+        font-size: 30px;
+        background-color:springgreen
+
+    }
+
+
+
+
+
+.contact{
+    float: right;
+    
+    /* background-color: lightgoldenrodyellow; */
+    /* background-color: mediumturquoise; */
+    background-color: lightsalmon;
+    /* background-color: lightblue; */
+    margin: 50px;
+    box-sizing: border-box;
+    width:500px;
+    border: 10px solid palevioletred;
+}
+.contact p{
+    font-size: 20px;
+}
+input[type=text]{
+    font-size: 20px;
+}
+input[type=number]{
+   
+    font-size: 20px;
+}
+textarea[name=Email]{
+    font-size: 20px;
+}
+textarea[name=Message]{
+    font-size: 20px;
+}
+    .button {
+        font-family: 'Caprasimo', cursive;
+        display: inline-block;
+        border-radius: 4px;
+        background-color:springgreen;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  } 
+  .button:hover span {
+    padding-right: 30px;
+    text-decoration: underline;
+  }
+   .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1.0s;
+  } 
+  .btn3 button{
+    border-width: 10px;
+    font-size: larger;
+    cursor: pointer;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color:aqua;
+    color: blueviolet;
+
+}
+
+.paragraph p{
+    font-family: 'Poppins', sans-serif;
+    float:left;
+    display: inline;
+    flex-direction: row;
+    font-size: 25px;
+    /* border: 5px solid aquamarine; */
+    box-sizing: border-box;
+    width:700px;
+    background-color: turquoise;
+    /* background-color: blue; */
+}
+.button2{
+    border:none;
+    background-color: tomato;
+    box-sizing: border-box;
+    width: 200px;
+    font-size: 25px;
+
+    cursor: pointer;
+    border-radius: 10px
+    
+}
+.button2:hover{
+    font-family: 'Lilita One', cursive;
+    transition: all 0.5s;
+    padding:10px;
+    margin: 10px;
+    text-decoration: underline;
+    background-color: aqua;
+ 
+}
+
+  
